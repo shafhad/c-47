@@ -16,6 +16,7 @@ function  preload()
 {
     forestImg = loadImage("WallpaperDog-17001210.jpg");  
     playerSpriteImg = loadImage("player.png");
+    zombieImg = loadImage("zombie.jepg.png")
 }
 
 function setup()
