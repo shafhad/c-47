@@ -65,7 +65,7 @@ function spawnZombie()
     if(frameCount % 60===0)
     {
         var zombie=createSprite(1200,575,50,50);
-        zombie.addImage(zombieImg);
+      //  zombie.addImage(zombieImg);
         zombie.velocityX=-3;
         zombie.lifetime=400;
         zombie.depth = playerSprite.depth + 1;
